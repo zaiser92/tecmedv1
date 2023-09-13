@@ -1,0 +1,436 @@
+ERROR - 2023-04-07 21:03:38 --> Unknown column 'id' in 'field list'
+CRITICAL - 2023-04-07 21:03:38 --> Unknown column 'id' in 'field list'
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(`i...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(59): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(74): App\Models\MProfesional->countPersonasEdad(20, 22)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-07 21:07:54 --> Undefined variable $p20a22
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticas.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 372)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticas', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(108): view('estadisticas', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 21:44:25 --> Undefined variable $tgenerof
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticas.php(525): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 525)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticas', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(151): view('estadisticas', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-07 22:05:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE `egreso -` `ingreso` = 3' at line 1
+CRITICAL - 2023-04-07 22:05:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE `egreso -` `ingreso` = 3' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:08:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+CRITICAL - 2023-04-07 22:08:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:08:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+CRITICAL - 2023-04-07 22:08:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:08:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+CRITICAL - 2023-04-07 22:08:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:08:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+CRITICAL - 2023-04-07 22:08:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:09:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+CRITICAL - 2023-04-07 22:09:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:10:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+CRITICAL - 2023-04-07 22:10:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:11:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+CRITICAL - 2023-04-07 22:11:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(FROM_UNIXTIME(egreso), FROM_UNIXTIME(ingr...' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:13:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(egreso, ingreso) = 3' at line 1
+CRITICAL - 2023-04-07 22:13:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE DATEDIFF(egreso, ingreso) = 3' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:13:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE `egreso -` `ingreso` = 3' at line 1
+CRITICAL - 2023-04-07 22:13:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE `egreso -` `ingreso` = 3' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:13:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE `egreso -` `ingreso` = 3' at line 1
+CRITICAL - 2023-04-07 22:13:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE `egreso -` `ingreso` = 3' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:15:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - inicio) = 3' at line 1
+CRITICAL - 2023-04-07 22:15:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - inicio) = 3' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:15:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - inicio) = 3' at line 1
+CRITICAL - 2023-04-07 22:15:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - inicio) = 3' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:15:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - inicio) = 3' at line 1
+CRITICAL - 2023-04-07 22:15:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - inicio) = 3' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:16:36 --> Unknown column 'inicio' in 'where clause'
+CRITICAL - 2023-04-07 22:16:36 --> Unknown column 'inicio' in 'where clause'
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(`i...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:16:38 --> Unknown column 'inicio' in 'where clause'
+CRITICAL - 2023-04-07 22:16:38 --> Unknown column 'inicio' in 'where clause'
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(`i...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-07 22:16:47 --> Undefined property: stdClass::$num_rows
+#0 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 103)
+#1 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-04-07 22:17:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - ingreso) = 3' at line 1
+CRITICAL - 2023-04-07 22:17:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - ingreso) = 3' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:17:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - ingreso) = 3' at line 1
+CRITICAL - 2023-04-07 22:17:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - ingreso) = 3' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:17:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - ingreso) = 3' at line 1
+CRITICAL - 2023-04-07 22:17:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `profesional`
+WHERE ABS(egreso - ingreso) = 3' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:20:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`ingreso` = 3' at line 3
+CRITICAL - 2023-04-07 22:20:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`ingreso` = 3' at line 3
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:20:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`ingreso` = 3' at line 3
+CRITICAL - 2023-04-07 22:20:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`ingreso` = 3' at line 3
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-07 22:22:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`ingreso` = 3' at line 3
+CRITICAL - 2023-04-07 22:22:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`ingreso` = 3' at line 3
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(101): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-07 22:24:47 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 102)
+#1 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(77): App\Models\MProfesional->contarDiferencia(3)
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-07 23:52:33 --> preg_match(): Compilation failed: range out of order in character class at offset 3
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 114)
+#1 C:\xampp\htdocs\tecmed\app\Controllers\Usuarios.php(114): preg_match('/[1-0]/', 'aaaaaaaaaA')
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\Usuarios->cambia_password_1()
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

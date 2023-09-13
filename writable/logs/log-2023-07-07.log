@@ -1,0 +1,55 @@
+CRITICAL - 2023-07-07 09:53:14 --> Undefined variable $validation
+#0 C:\xampp\htdocs\tecmed\app\Views\formAcademica\nuevo.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('formAcademica/n...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CFormAcademica.php(83): view('formAcademica/n...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CFormAcademica->nuevo()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CFormAcademica))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-07 09:53:24 --> Undefined variable $validation
+#0 C:\xampp\htdocs\tecmed\app\Views\formAcademica\nuevo.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('formAcademica/n...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CFormAcademica.php(83): view('formAcademica/n...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CFormAcademica->nuevo()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CFormAcademica))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-07 09:53:32 --> Undefined variable $validation
+#0 C:\xampp\htdocs\tecmed\app\Views\formAcademica\nuevo.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('formAcademica/n...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CFormAcademica.php(83): view('formAcademica/n...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CFormAcademica->nuevo()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CFormAcademica))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-07 09:54:58 --> Undefined variable $validation
+#0 C:\xampp\htdocs\tecmed\app\Views\formAcademica\nuevo.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('formAcademica/n...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CFormAcademica.php(83): view('formAcademica/n...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CFormAcademica->nuevo()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CFormAcademica))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-07 09:55:17 --> Undefined variable $validation
+#0 C:\xampp\htdocs\tecmed\app\Views\formAcademica\nuevo.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('formAcademica/n...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CFormAcademica.php(83): view('formAcademica/n...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CFormAcademica->nuevo()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CFormAcademica))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

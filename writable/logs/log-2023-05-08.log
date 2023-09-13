@@ -1,0 +1,241 @@
+CRITICAL - 2023-05-08 09:22:06 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 322)
+#1 C:\xampp\htdocs\tecmed\system\Database\Query.php(322): implode(',', Array)
+#2 C:\xampp\htdocs\tecmed\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#3 C:\xampp\htdocs\tecmed\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#6 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#8 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(54): CodeIgniter\BaseModel->findAll()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#11 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-08 09:24:10 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 322)
+#1 C:\xampp\htdocs\tecmed\system\Database\Query.php(322): implode(',', Array)
+#2 C:\xampp\htdocs\tecmed\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#3 C:\xampp\htdocs\tecmed\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#6 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#8 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(54): CodeIgniter\BaseModel->findAll()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#11 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-08 09:24:11 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 322)
+#1 C:\xampp\htdocs\tecmed\system\Database\Query.php(322): implode(',', Array)
+#2 C:\xampp\htdocs\tecmed\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#3 C:\xampp\htdocs\tecmed\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#6 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#8 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(54): CodeIgniter\BaseModel->findAll()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#11 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-08 09:26:18 --> Call to a member function getResultArray() on array
+#0 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 09:30:03 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 322)
+#1 C:\xampp\htdocs\tecmed\system\Database\Query.php(322): implode(',', Array)
+#2 C:\xampp\htdocs\tecmed\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#3 C:\xampp\htdocs\tecmed\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#6 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#8 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(55): CodeIgniter\BaseModel->findAll()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#11 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-08 09:30:15 --> Undefined variable $a_menciones
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-08 09:30:28 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 322)
+#1 C:\xampp\htdocs\tecmed\system\Database\Query.php(322): implode(',', Array)
+#2 C:\xampp\htdocs\tecmed\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#3 C:\xampp\htdocs\tecmed\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#6 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#8 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(55): CodeIgniter\BaseModel->findAll()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#11 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-08 09:55:21 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(53): array_push(NULL, 'Bioimagenologia', 'Publico General')
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-08 10:54:33 --> Call to undefined method App\Models\MMencion::countMencionesByGenero
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(32): CodeIgniter\Model->__call('countMencionesB...', Array)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-08 10:54:51 --> Unsupported operand types: int + array
+#0 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:07:05 --> Call to undefined method App\Models\MMencion::genero
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(33): CodeIgniter\Model->__call('genero', Array)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-08 11:14:51 --> Column 'mencion' in where clause is ambiguous
+CRITICAL - 2023-05-08 11:14:51 --> Column 'mencion' in where clause is ambiguous
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `profesi...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profesi...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profesi...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `profesi...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MMencion.php(64): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(45): App\Models\MMencion->generoMencion('Masculino', 'Bioimagenologia')
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-05-08 12:58:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'egreso, fecha_nacimiento, CURDATE()) BETWEEN 20 AND 22' at line 3
+CRITICAL - 2023-05-08 12:58:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'egreso, fecha_nacimiento, CURDATE()) BETWEEN 20 AND 22' at line 3
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(`i...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(60): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(212): App\Models\MProfesional->countPersonasEdad(20, 22)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-05-08 12:59:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'egreso, fecha_nacimiento, CURDATE()) BETWEEN 20 AND 22' at line 3
+CRITICAL - 2023-05-08 12:59:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'egreso, fecha_nacimiento, CURDATE()) BETWEEN 20 AND 22' at line 3
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(`i...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(60): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(212): App\Models\MProfesional->countPersonasEdad(20, 22)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-05-08 12:59:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'egreso, fecha_nacimiento, CURDATE()) BETWEEN 20 AND 22' at line 3
+CRITICAL - 2023-05-08 12:59:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'egreso, fecha_nacimiento, CURDATE()) BETWEEN 20 AND 22' at line 3
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(`i...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(60): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(212): App\Models\MProfesional->countPersonasEdad(20, 22)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-05-08 12:59:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'egreso, fecha_nacimiento, CURDATE()) BETWEEN 20 AND 22' at line 3
+CRITICAL - 2023-05-08 12:59:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'egreso, fecha_nacimiento, CURDATE()) BETWEEN 20 AND 22' at line 3
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(`i...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(60): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(212): App\Models\MProfesional->countPersonasEdad(20, 22)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-05-08 13:00:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'egreso, fecha_nacimiento, CURDATE()) BETWEEN 20 AND 22' at line 3
+CRITICAL - 2023-05-08 13:00:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'egreso, fecha_nacimiento, CURDATE()) BETWEEN 20 AND 22' at line 3
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(`i...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(60): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(212): App\Models\MProfesional->countPersonasEdad(20, 22)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-05-08 13:21:49 --> Unknown column 'año_egreso' in 'where clause'
+CRITICAL - 2023-05-08 13:21:49 --> Unknown column 'año_egreso' in 'where clause'
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(`i...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MProfesional.php(60): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(212): App\Models\MProfesional->countPersonasEdad(20, 22)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-05-08 13:29:34 --> Column 'egreso' in where clause is ambiguous
+CRITICAL - 2023-05-08 13:29:34 --> Column 'egreso' in where clause is ambiguous
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MMencion.php(51): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(213): App\Models\MMencion->countPersonasEdad(20, 22)
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-05-08 15:03:52 --> Column 'mencion' in where clause is ambiguous
+CRITICAL - 2023-05-08 15:03:52 --> Column 'mencion' in where clause is ambiguous
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\app\Models\MMencion.php(72): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(242): App\Models\MMencion->countPersonasEdadMencion(20, 22, 'Bioimagenologia')
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

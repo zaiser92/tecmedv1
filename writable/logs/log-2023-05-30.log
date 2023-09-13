@@ -1,0 +1,28 @@
+CRITICAL - 2023-05-30 09:49:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\Usuarios.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\Usuarios->valida()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-30 09:50:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\Usuarios.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\Usuarios->valida()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-30 09:52:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\Usuarios.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\Usuarios->valida()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-30 09:52:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\Usuarios.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\Usuarios->valida()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

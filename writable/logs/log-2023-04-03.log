@@ -1,0 +1,44 @@
+CRITICAL - 2023-04-03 14:41:16 --> Undefined variable $data
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticas.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticas', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(31): view('estadisticas', Array, Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-03 16:32:52 --> Undefined array key "data"
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticas.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticas', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(32): view('estadisticas', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-03 16:42:59 --> Undefined array key "labels"
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticas.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticas', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(34): view('estadisticas', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-03 17:20:49 --> Undefined array key "edad1"
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticas.php(300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 300)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticas', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(58): view('estadisticas', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

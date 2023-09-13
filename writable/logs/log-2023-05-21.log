@@ -1,0 +1,94 @@
+CRITICAL - 2023-05-21 00:52:57 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\tecmed\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\tecmed\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, true)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CTitulado.php(257): CodeIgniter\BaseModel->delete(NULL, true)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CTitulado->eliminar_definivamente('10', '2')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTitulado))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-21 00:53:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CTitulado.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 257)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CTitulado->eliminar_definivamente('10', '2')
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTitulado))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-21 00:55:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CTitulado.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 257)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CTitulado->eliminar_definivamente('10', '2')
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTitulado))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-21 00:59:00 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CTitulado.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 257)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CTitulado->eliminar_definivamente('10', '2')
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTitulado))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-21 00:59:32 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CTitulado.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 257)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CTitulado->eliminar_definivamente('10', '2')
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTitulado))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-21 01:03:52 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CTitulado.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 257)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CTitulado->eliminar_definivamente('11', '3')
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTitulado))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-21 01:04:16 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CTitulado.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 257)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CTitulado->eliminar_definivamente('16', '1')
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTitulado))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-21 01:08:08 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CTitulado.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CTitulado->eliminar_definivamente('17', '2')
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTitulado))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-21 01:12:15 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CTitulado.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CTitulado->eliminar_definivamente('17', '2', '187')
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTitulado))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-21 18:02:46 --> Undefined array key "generoCarrera"
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticasAcademicas.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticasAca...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticasAcademicas.php(325): view('estadisticasAca...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticasAcademicas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticasAcademicas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-21 18:04:51 --> Undefined array key "generoMencion"
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticasAcademicas.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticasAca...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticasAcademicas.php(325): view('estadisticasAca...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticasAcademicas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticasAcademicas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-21 18:27:03 --> Undefined variable $tgeneroCM
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticasAcademicas.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticasAcademicas->index()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticasAcademicas))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

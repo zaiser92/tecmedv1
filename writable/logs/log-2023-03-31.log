@@ -1,0 +1,433 @@
+CRITICAL - 2023-03-31 12:29:34 --> Call to undefined method App\Models\MAdministrador::getResultArray
+#0 C:\xampp\htdocs\tecmed\app\Models\MAdministrador.php(50): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(52): App\Models\MAdministrador->listar()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->index()
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-31 12:30:20 --> Call to undefined method App\Models\MAdministrador::getResultArray
+#0 C:\xampp\htdocs\tecmed\app\Models\MAdministrador.php(49): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(52): App\Models\MAdministrador->listar()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->index()
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-31 12:30:21 --> Call to undefined method App\Models\MAdministrador::getResultArray
+#0 C:\xampp\htdocs\tecmed\app\Models\MAdministrador.php(49): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(52): App\Models\MAdministrador->listar()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->index()
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-31 18:35:45 --> Too few arguments to function App\Controllers\CProfesional::perfil(), 0 passed in C:\xampp\htdocs\tecmed\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->perfil()
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-31 18:36:52 --> Too few arguments to function App\Controllers\CProfesional::perfil(), 0 passed in C:\xampp\htdocs\tecmed\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->perfil()
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-31 19:33:19 --> Undefined array key "id_profesional"
+#0 C:\xampp\htdocs\tecmed\app\Views\seminario\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('seminario/edita...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CSeminario.php(129): view('seminario/edita...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CSeminario->editar('7')
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSeminario))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-31 19:33:35 --> Undefined array key "id_profesional"
+#0 C:\xampp\htdocs\tecmed\app\Views\seminario\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('seminario/edita...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CSeminario.php(129): view('seminario/edita...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CSeminario->editar('7')
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSeminario))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-31 19:33:51 --> Undefined array key "titulo"
+#0 C:\xampp\htdocs\tecmed\app\Views\seminario\editar.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('seminario/edita...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CSeminario.php(129): view('seminario/edita...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CSeminario->editar('7')
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSeminario))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-31 19:34:20 --> Undefined array key "id_profesional"
+#0 C:\xampp\htdocs\tecmed\app\Views\seminario\editar.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 141)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('seminario/edita...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CSeminario.php(129): view('seminario/edita...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CSeminario->editar('7')
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSeminario))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-31 19:42:28 --> There is no data to update.
+#0 C:\xampp\htdocs\tecmed\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tecmed\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CSeminario.php(147): CodeIgniter\Model->update('5', Array)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CSeminario->actualizar()
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSeminario))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 20:30:08 --> Invalid file: seminario/eliminados.php
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seminario/elimi...')
+#1 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('seminario/elimi...', Array, true)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CSeminario.php(192): view('seminario/elimi...', Array)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CSeminario->eliminados()
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSeminario))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 20:30:13 --> Invalid file: seminario/eliminados.php
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seminario/elimi...')
+#1 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('seminario/elimi...', Array, true)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CSeminario.php(192): view('seminario/elimi...', Array)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CSeminario->eliminados()
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSeminario))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 20:43:53 --> Undefined array key "codigo"
+#0 C:\xampp\htdocs\tecmed\app\Views\seminario\eliminados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('seminario/elimi...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CSeminario.php(192): view('seminario/elimi...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CSeminario->eliminados()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSeminario))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-31 21:49:11 --> Invalid file: cprofesional/ver_curriculum.php
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cprofesional/ve...')
+#1 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('cprofesional/ve...', Array, true)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(413): view('cprofesional/ve...', Array)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->CurriculumPDF()
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 21:49:15 --> Invalid file: cprofesional/ver_curriculum.php
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cprofesional/ve...')
+#1 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('cprofesional/ve...', Array, true)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(413): view('cprofesional/ve...', Array)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->CurriculumPDF()
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 21:49:39 --> Invalid file: cprofesional/ver_curriculum.php
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cprofesional/ve...')
+#1 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('cprofesional/ve...', Array, true)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(413): view('cprofesional/ve...', Array)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->CurriculumPDF()
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 21:50:42 --> Undefined variable $id_doc
+#0 C:\xampp\htdocs\tecmed\app\Views\Profesional\ver_curriculum.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/ver...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(413): view('profesional/ver...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->CurriculumPDF()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-31 22:01:52 --> fopen(http://localhost/tecmed/public/images/tecmed.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 1275)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1275): fopen('http://localhos...', 'rb')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsepng('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 65, 5, 10, 12, 'png')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('41')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:02:58 --> fopen(http://localhost/tecmed/public/images/tecmed.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 1275)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1275): fopen('http://localhos...', 'rb')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsepng('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 65, 5, 10, 12, 'png')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('41')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-31 22:12:09 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-03-31 22:12:09 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(425): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('41')
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-31 22:29:30 --> FPDF error: Not a JPEG file: http://localhost/tecmed/public/assets/dist/img/usuario.png
+#0 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1260): FPDF->Error('Not a JPEG file...')
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('42')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 22:29:32 --> FPDF error: Not a JPEG file: http://localhost/tecmed/public/assets/dist/img/usuario.png
+#0 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1260): FPDF->Error('Not a JPEG file...')
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('42')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 22:29:51 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/usuario.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('42')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:30:32 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/b2.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('42')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:30:45 --> fopen(http://localhost/tecmed/public/assets/dist/img/b2.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 1275)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1275): fopen('http://localhos...', 'rb')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsepng('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'png')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('42')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:31:08 --> fopen(http://localhost/tecmed/public/assets/dist/img/b2.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 1275)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1275): fopen('http://localhos...', 'rb')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsepng('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'png')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('42')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:31:21 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/b2.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('42')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:31:26 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/c1.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('41')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:31:46 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/c1.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('41')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:37:42 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/b1.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('39')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:42:23 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/b1.jpeg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('39')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:43:00 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/b1.jpeg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('39')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:44:28 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/usuarios/b1.jpeg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('39')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:44:42 --> FPDF error: Not a JPEG file: http://localhost/tecmed/public/assets/dist/img/usuario/b1.jpeg
+#0 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1260): FPDF->Error('Not a JPEG file...')
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('39')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 22:46:18 --> FPDF error: Not a JPEG file: http://localhost/tecmed/public/assets/dist/img/usuario/b1.jpeg
+#0 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1260): FPDF->Error('Not a JPEG file...')
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('39')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 22:46:19 --> FPDF error: Not a JPEG file: http://localhost/tecmed/public/assets/dist/img/usuario/b1.jpeg
+#0 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1260): FPDF->Error('Not a JPEG file...')
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('39')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 22:46:58 --> fopen(http://localhost/tecmed/public/assets/dist/img/usuario/b3.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 1275)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1275): fopen('http://localhos...', 'rb')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsepng('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'png')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('39')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:47:40 --> fopen(http://localhost/tecmed/public/assets/dist/img/usuario/b3.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 1275)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1275): fopen('http://localhos...', 'rb')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsepng('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'png')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('39')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 22:48:23 --> FPDF error: Not a JPEG file: http://localhost/tecmed/public/assets/dist/img/usuario/usuario.png
+#0 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1260): FPDF->Error('Not a JPEG file...')
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('39')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-31 22:49:53 --> fopen(http://localhost/tecmed/public/assets/dist/img/usuario/c1.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 1275)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1275): fopen('http://localhos...', 'rb')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsepng('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'png')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('39')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 23:09:03 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/usuario/f2.jpeg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('43')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 23:09:17 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/usuario/f2.jpeg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('43')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-31 23:14:26 --> getimagesize(http://localhost/tecmed/public/assets/dist/img/usuario/f2.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(ht...', 'C:\\xampp\\htdocs...', 1256)
+#1 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(1256): getimagesize('http://localhos...')
+#2 C:\xampp\htdocs\tecmed\app\ThirdParty\fpdf\fpdf.php(889): FPDF->_parsejpg('http://localhos...')
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(432): FPDF->Image('http://localhos...', 170, 10, 25, 30, 'jpg')
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->generaCurriculum('43')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

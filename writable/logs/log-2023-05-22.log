@@ -1,0 +1,143 @@
+ERROR - 2023-05-22 09:36:47 --> Unknown column 'perfil_profesiona2' in 'field list'
+CRITICAL - 2023-05-22 09:36:47 --> Unknown column 'perfil_profesiona2' in 'field list'
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COALESCE...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COALESCE...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COALESCE...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT COALESCE...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticasAcademicas.php(116): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticasAcademicas->index()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticasAcademicas))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-22 13:19:06 --> Too few arguments to function App\Models\MTitula::listarMenciones(), 0 passed in C:\xampp\htdocs\tecmed\app\Controllers\CSeminario.php on line 90 and exactly 1 expected
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CSeminario.php(90): App\Models\MTitula->listarMenciones()
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CSeminario->vistaProfesionales()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSeminario))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-22 13:22:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `noticias`.`id` ASC' at line 4
+CRITICAL - 2023-05-22 13:22:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `noticias`.`id` ASC' at line 4
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `noticia...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `noticia...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `noticia...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `noticia...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tecmed\app\Models\MNnoticias.php(62): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(83): App\Models\MNnoticias->listaProfesionales(Array)
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-22 13:23:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `noticias`.`id` ASC' at line 4
+CRITICAL - 2023-05-22 13:23:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `noticias`.`id` ASC' at line 4
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `noticia...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `noticia...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `noticia...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `noticia...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tecmed\app\Models\MNnoticias.php(62): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(83): App\Models\MNnoticias->listaProfesionales(Array)
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-22 13:23:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `noticias`.`id` ASC' at line 4
+CRITICAL - 2023-05-22 13:23:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `noticias`.`id` ASC' at line 4
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `noticia...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `noticia...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `noticia...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `noticia...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tecmed\app\Models\MNnoticias.php(62): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(83): App\Models\MNnoticias->listaProfesionales(Array)
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-22 13:31:07 --> Array to string conversion
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-22 13:35:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `noticias`.`id` ASC' at line 4
+CRITICAL - 2023-05-22 13:35:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `noticias`.`id` ASC' at line 4
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `noticia...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `noticia...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `noticia...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `noticia...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tecmed\app\Models\MNnoticias.php(62): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(83): App\Models\MNnoticias->listaProfesionales(Array)
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-22 13:36:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `noticias`.`id` ASC' at line 4
+CRITICAL - 2023-05-22 13:36:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `noticias`.`id` ASC' at line 4
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `noticia...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `noticia...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `noticia...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `noticia...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tecmed\app\Models\MNnoticias.php(62): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(83): App\Models\MNnoticias->listaProfesionales(Array)
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-22 13:37:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+CRITICAL - 2023-05-22 13:37:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `noticia...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `noticia...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `noticia...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `noticia...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tecmed\app\Models\MNnoticias.php(61): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(83): App\Models\MNnoticias->listaProfesionales(Array)
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-22 13:53:04 --> Unknown table 'tecmed.noticias'
+CRITICAL - 2023-05-22 13:53:04 --> Unknown table 'tecmed.noticias'
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `noticia...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `noticia...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `noticia...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `noticia...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tecmed\app\Models\MConvDocencia.php(67): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tecmed\app\Controllers\CConvDocencia.php(85): App\Models\MConvDocencia->listaProfesionales(Array, 1)
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CConvDocencia->vistaProfesionales()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CConvDocencia))
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

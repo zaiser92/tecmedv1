@@ -1,0 +1,213 @@
+CRITICAL - 2023-05-10 10:45:48 --> Undefined variable $datos
+#0 C:\xampp\htdocs\tecmed\app\Views\Administradores\editar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(270): view('administradores...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->actualizar()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 10:47:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Views\Administradores\editar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(271): view('administradores...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->actualizar()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-10 11:07:05 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-05-10 11:07:05 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT 1\nFROM `...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('7777777', 'ci', Array, NULL)
+#6 C:\xampp\htdocs\tecmed\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('ci', 'ci', '7777777', Array, Array)
+#7 C:\xampp\htdocs\tecmed\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(288): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->actualizar()
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#11 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-10 11:17:02 --> There is no data to update.
+#0 C:\xampp\htdocs\tecmed\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tecmed\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\tecmed\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\tecmed\app\Models\MAdministrador.php(99): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(298): App\Models\MAdministrador->editarUsuario('88888888R', 'Roberto', 'Ayala', 'Secretaria', '88888888', '666666', '1')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->actualizar()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 11:17:19 --> There is no data to update.
+#0 C:\xampp\htdocs\tecmed\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tecmed\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\tecmed\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\tecmed\app\Models\MAdministrador.php(99): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(298): App\Models\MAdministrador->editarUsuario('6666666R', 'Roberto', 'Ayala', 'Secretaria', '6666666', '666666', '1')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->actualizar()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 11:18:32 --> There is no data to update.
+#0 C:\xampp\htdocs\tecmed\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tecmed\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\tecmed\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\tecmed\app\Models\MAdministrador.php(98): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(298): App\Models\MAdministrador->editarUsuario('6666666R', 'Roberto', 'Ayala', 'Secretaria', '6666666', '666666', '1')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->actualizar()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 11:19:16 --> There is no data to update.
+#0 C:\xampp\htdocs\tecmed\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tecmed\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\tecmed\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\tecmed\app\Models\MAdministrador.php(98): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(298): App\Models\MAdministrador->editarUsuario('6666666R', 'Roberto', 'Ayala', 'Secretaria', '6666666', '666666', '1')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->actualizar()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 11:20:47 --> There is no data to update.
+#0 C:\xampp\htdocs\tecmed\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tecmed\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\tecmed\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\tecmed\app\Models\MAdministrador.php(98): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(298): App\Models\MAdministrador->editarUsuario('6666666R', 'Roberto', 'Ayala', 'Secretaria', '6666666', '666666', '1')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->actualizar()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 11:21:01 --> There is no data to update.
+#0 C:\xampp\htdocs\tecmed\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tecmed\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\tecmed\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\tecmed\app\Models\MAdministrador.php(98): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(298): App\Models\MAdministrador->editarUsuario('123321R', 'Roberto', 'Ayala', 'Secretaria', '123321', '666666', '1')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->actualizar()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 11:23:48 --> There is no data to update.
+#0 C:\xampp\htdocs\tecmed\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tecmed\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\tecmed\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\tecmed\app\Models\MAdministrador.php(98): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(298): App\Models\MAdministrador->editarUsuario('57', '123321R', 'Roberto', 'Ayala', 'Secretaria', '123321', '666666', '1')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->actualizar()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-10 11:50:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS total
+FROM `administrador`
+LEFT JOIN `cursos_seminarios` ON `administrador...' at line 1
+CRITICAL - 2023-05-10 11:50:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS total
+FROM `administrador`
+LEFT JOIN `cursos_seminarios` ON `administrador...' at line 1
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `adminis...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adminis...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adminis...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `adminis...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tecmed\app\Models\MAdministrador.php(68): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tecmed\app\Controllers\CAdministrador.php(338): App\Models\MAdministrador->eliminados()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CAdministrador->eliminados()
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdministrador))
+#10 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-10 12:39:17 --> Unknown column 'id_administrador' in 'where clause'
+CRITICAL - 2023-05-10 12:39:17 --> Unknown column 'id_administrador' in 'where clause'
+#0 C:\xampp\htdocs\tecmed\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tecmed\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tecmed\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tecmed\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(298): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->actualizar()
+#8 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#9 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-10 12:39:35 --> Undefined array key "id_administrador"
+#0 C:\xampp\htdocs\tecmed\app\Views\Administradores\editar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(301): view('administradores...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->actualizar()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 14:16:31 --> Undefined array key "nomProfesional"
+#0 C:\xampp\htdocs\tecmed\app\Views\Profesional\perfil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/per...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(516): view('profesional/per...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->actualizar_perfil()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 14:17:00 --> Array callback must have exactly two elements
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/per...', Array, true)
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(516): view('profesional/per...', Array)
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->actualizar_perfil()
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-10 14:44:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Views\Profesional\perfil.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/per...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(401): view('profesional/per...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->perfil('MjAy')
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 14:44:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Views\menciones\listar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('menciones/lista...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CMencion.php(71): view('menciones/lista...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CMencion->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMencion))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 14:44:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Views\menciones\listar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('menciones/lista...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CMencion.php(71): view('menciones/lista...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CMencion->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMencion))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

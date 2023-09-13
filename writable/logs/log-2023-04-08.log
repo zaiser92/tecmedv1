@@ -1,0 +1,128 @@
+CRITICAL - 2023-04-08 01:16:43 --> Undefined variable $dato
+#0 C:\xampp\htdocs\tecmed\app\Views\Profesional\nuevosExcel.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/nue...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(93): view('profesional/nue...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->nuevosExcel()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 21:47:10 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\tecmed\app\Views\Profesional\nuevo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/nue...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(122): view('profesional/nue...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->PreviaExcel()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 22:03:32 --> PhpOffice\PhpSpreadsheet\IOFactory::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php on line 125
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(125): PhpOffice\PhpSpreadsheet\IOFactory::load(NULL)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->PreviaExcel()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-08 22:03:38 --> PhpOffice\PhpSpreadsheet\IOFactory::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php on line 125
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(125): PhpOffice\PhpSpreadsheet\IOFactory::load(NULL)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->PreviaExcel()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-08 22:05:15 --> PhpOffice\PhpSpreadsheet\IOFactory::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php on line 125
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(125): PhpOffice\PhpSpreadsheet\IOFactory::load(NULL)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->PreviaExcel()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-08 22:21:59 --> Undefined array key "A"
+#0 C:\xampp\htdocs\tecmed\app\Views\Profesional\vistaPreviaExcel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/vis...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(145): view('profesional/vis...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->PreviaExcel()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 22:23:15 --> Undefined array key "A"
+#0 C:\xampp\htdocs\tecmed\app\Views\Profesional\vistaPreviaExcel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/vis...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(141): view('profesional/vis...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->PreviaExcel()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 22:49:36 --> Invalid cell coordinate AAAA1
+#0 C:\xampp\htdocs\tecmed\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(55): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('AAAA1')
+#1 C:\xampp\htdocs\tecmed\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1390): PhpOffice\PhpSpreadsheet\Cell\Coordinate::indexesFromString('AAAA1')
+#2 C:\xampp\htdocs\tecmed\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1280): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('AAAA1')
+#3 C:\xampp\htdocs\tecmed\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1373): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('AAAA1')
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(131): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCellByColumnAndRow(18279, 1)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->PreviaExcel()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 22:59:57 --> strtotime(): Argument #1 ($datetime) must be of type string, DateTime given
+#0 C:\xampp\htdocs\tecmed\app\Views\Profesional\vistaPreviaExcel.php(45): strtotime(Object(DateTime))
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/vis...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(150): view('profesional/vis...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->PreviaExcel()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-08 23:00:23 --> Object of class DateTime could not be converted to string
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/vis...', Array, true)
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(150): view('profesional/vis...', Array)
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->PreviaExcel()
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-08 23:06:44 --> Call to a member function format() on bool
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/vis...', Array, true)
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(150): view('profesional/vis...', Array)
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->PreviaExcel()
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-08 23:08:21 --> Object of class DateTime could not be converted to string
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/vis...', Array, true)
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(150): view('profesional/vis...', Array)
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->PreviaExcel()
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-08 23:59:22 --> Undefined variable $data
+#0 C:\xampp\htdocs\tecmed\app\Views\Profesional\vistaPreviaExcel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('profesional/vis...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CProfesional.php(181): view('profesional/vis...')
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CProfesional->importar_profesionales()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CProfesional))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

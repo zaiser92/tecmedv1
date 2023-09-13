@@ -1,0 +1,95 @@
+CRITICAL - 2023-09-11 12:30:14 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(706): CodeIgniter\Database\BaseBuilder->_whereIn('noticias.id_men...', '1', false, 'AND ', NULL)
+#1 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->whereIn('noticias.id_men...', '1')
+#2 C:\xampp\htdocs\tecmed\app\Models\MNnoticias.php(79): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(83): App\Models\MNnoticias->listaProfesionales(Array, 1)
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-11 12:32:04 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(706): CodeIgniter\Database\BaseBuilder->_whereIn('noticias.id_men...', 1, false, 'AND ', NULL)
+#1 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->whereIn('noticias.id_men...', 1)
+#2 C:\xampp\htdocs\tecmed\app\Models\MNnoticias.php(79): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(83): App\Models\MNnoticias->listaProfesionales(Array, 1)
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-11 12:33:03 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\tecmed\system\Database\BaseBuilder.php(706): CodeIgniter\Database\BaseBuilder->_whereIn('noticias.id_men...', '1', false, 'AND ', NULL)
+#1 C:\xampp\htdocs\tecmed\system\Model.php(720): CodeIgniter\Database\BaseBuilder->whereIn('noticias.id_men...', '1')
+#2 C:\xampp\htdocs\tecmed\app\Models\MNnoticias.php(79): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(83): App\Models\MNnoticias->listaProfesionales(Array, 1)
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->vistaProfesionales()
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-11 12:43:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CTitulado.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CTitulado->eliminar_definivamente('2', '1', '1')
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTitulado))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-11 12:43:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CTitulado.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CTitulado->eliminar_definivamente('2', '1', '1')
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTitulado))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-11 12:55:22 --> Call to undefined method App\Models\MSeminario::listaProfesionales
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CSeminario.php(91): CodeIgniter\Model->__call('listaProfesiona...', Array)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CSeminario->vistaProfesionales()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSeminario))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-11 14:16:29 --> Undefined variable $tgeneroR
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticas.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 124)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticas', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(338): view('estadisticas', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-11 15:17:52 --> Undefined variable $totalelaltoL
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticas.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 465)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticas', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(348): view('estadisticas', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-11 15:18:13 --> Undefined variable $totalelaltoR
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticas.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 479)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticas', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(348): view('estadisticas', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-11 15:57:21 --> Undefined variable $permanencia3r
+#0 C:\xampp\htdocs\tecmed\app\Views\estadisticas.php(752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 752)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('estadisticas', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CEstadisticas.php(347): view('estadisticas', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CEstadisticas->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CEstadisticas))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

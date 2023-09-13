@@ -1,0 +1,7 @@
+CRITICAL - 2023-04-25 09:09:27 --> Undefined property: App\Controllers\CExpLaboral::$formAcademica
+#0 C:\xampp\htdocs\tecmed\app\Controllers\CExpLaboral.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 143)
+#1 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CExpLaboral->actualizar()
+#2 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CExpLaboral))
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

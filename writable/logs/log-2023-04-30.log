@@ -1,0 +1,111 @@
+CRITICAL - 2023-04-30 20:07:11 --> Invalid file: seminario/convDocencia.php
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seminario/convD...')
+#1 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('seminario/convD...', Array, true)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CConvDocencia.php(39): view('seminario/convD...', Array)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CConvDocencia->index()
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CConvDocencia))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-30 20:08:07 --> Invalid file: convDocencia/convDocencia.php
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('convDocencia/co...')
+#1 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('convDocencia/co...', Array, true)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CConvDocencia.php(39): view('convDocencia/co...', Array)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CConvDocencia->index()
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CConvDocencia))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-30 20:33:08 --> Undefined array key "costo"
+#0 C:\xampp\htdocs\tecmed\app\Views\convDocencia\convDocencia.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('convDocencia/co...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CConvDocencia.php(39): view('convDocencia/co...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CConvDocencia->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CConvDocencia))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-30 20:37:54 --> Undefined array key "costo"
+#0 C:\xampp\htdocs\tecmed\app\Views\convDocencia\convDocencia.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('convDocencia/co...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CConvDocencia.php(39): view('convDocencia/co...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CConvDocencia->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CConvDocencia))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-30 20:41:51 --> Undefined array key "tema"
+#0 C:\xampp\htdocs\tecmed\app\Views\convDocencia\convDocencia.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('convDocencia/co...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CConvDocencia.php(39): view('convDocencia/co...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CConvDocencia->index()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CConvDocencia))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-30 21:09:25 --> Undefined array key "costo"
+#0 C:\xampp\htdocs\tecmed\app\Views\convDocencia\eliminados.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('convDocencia/el...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CConvDocencia.php(191): view('convDocencia/el...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CConvDocencia->eliminados()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CConvDocencia))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-30 22:45:44 --> Undefined array key "tema"
+#0 C:\xampp\htdocs\tecmed\app\Views\convDocencia\eliminados.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('convDocencia/el...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CConvDocencia.php(191): view('convDocencia/el...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CConvDocencia->eliminados()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CConvDocencia))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-30 22:48:37 --> Undefined array key "costo"
+#0 C:\xampp\htdocs\tecmed\app\Views\convDocencia\vistaProfesionales.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\tecmed\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tecmed\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('convDocencia/vi...', Array, true)
+#4 C:\xampp\htdocs\tecmed\app\Controllers\CConvDocencia.php(55): view('convDocencia/vi...', Array)
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CConvDocencia->vistaProfesionales()
+#6 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CConvDocencia))
+#7 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-30 23:39:39 --> Invalid file: noticias/noticia.php
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('noticias/notici...')
+#1 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('noticias/notici...', Array, true)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(39): view('noticias/notici...', Array)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->index()
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-30 23:40:08 --> Invalid file: noticias/noticias.php
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('noticias/notici...')
+#1 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('noticias/notici...', Array, true)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(39): view('noticias/notici...', Array)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->index()
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-30 23:43:57 --> Invalid file: noticia/nuevo.php
+#0 C:\xampp\htdocs\tecmed\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('noticia/nuevo.p...')
+#1 C:\xampp\htdocs\tecmed\system\Common.php(1092): CodeIgniter\View\View->render('noticia/nuevo', Array, true)
+#2 C:\xampp\htdocs\tecmed\app\Controllers\CNoticias.php(68): view('noticia/nuevo', Array)
+#3 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(802): App\Controllers\CNoticias->nuevo()
+#4 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CNoticias))
+#5 C:\xampp\htdocs\tecmed\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tecmed\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
